@@ -1,0 +1,10 @@
+// fork, join, join_any, join_none  
+exp1 -> initial , final ,always, always_comb, always_latch, always_ff
+exp2 -> fork/join basic
+exp3 -> fork/join: basic, join_any, join_none
+exp4 -> blocking & non-blocking
+exp5 -> loops: for, while, repeat, forever, foreach
+exp6 -> Condionals: if, case, casez, casex
+exp7 -> generate blocks
+exp8 -> 
+exp9 -> 

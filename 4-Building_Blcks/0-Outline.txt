@@ -1,0 +1,19 @@
+// module
+// block instantiation
+// generate block
+// package
+// program block
+
+exp1 -> interface: basics
+exp2 -> interface: modport 
+exp3 -> interface: virtual interface inside class
+exp4 -> clocking block 
+exp5 -> interface: using clocking block 
+exp6 -> 
+exp6 -> 
+exp7 -> 
+exp8 -> 
+exp9 -> 
+
+
+

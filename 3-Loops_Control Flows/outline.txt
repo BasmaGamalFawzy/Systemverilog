@@ -1,0 +1,14 @@
+Loops: for, while, repeat, forever
+Control flows: if, case, casez, casex
+qeueue methods: push, pop, size, empty, full
+
+
+exp1 -> coditionals 
+exp2 -> loops
+exp3 -> 
+exp4 -> 
+exp5 -> 
+exp6 -> 
+exp7 -> 
+exp8 -> 
+exp9 -> 

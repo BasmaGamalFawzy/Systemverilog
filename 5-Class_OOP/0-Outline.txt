@@ -1,0 +1,29 @@
+Inherentence
+super keyword
+Polymorphism
+Virtual functions
+Virtual class & pure virtual function
+-------------------------------------
+Aggrigated class
+Shallow copy
+Deep copy
+Construct function
+this keyword
+extern function
+--------------------------------------
+automatic & static methods (functions & tasks)
+pass values by name
+pass values by ref & const ref
+pass values by position
+
+
+
+exp1 -> 
+exp2 -> 
+exp3 -> 
+exp4 -> 
+exp5 -> 
+exp6 -> 
+exp7 -> 
+exp8 -> 
+exp9 -> 

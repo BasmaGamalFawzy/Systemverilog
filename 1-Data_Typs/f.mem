@@ -1,0 +1,15 @@
+// comments are allowed 
+// each number sperated by a white space or a new line
+// z , x , _ are allowed
+00_00 01_00 02_00
+03_00 04_00 05_00
+06_00 07_00 08_00 09_00
+aa_z0
+bb_x1
+cc_02   
+dd_03
+ee_04
+ff_05 
+// writing non-hex number will stop reading and appear as warning during runtime
+// target certian address: 50d = 32h
+@32 ff_ff hh_00 fa_ff 

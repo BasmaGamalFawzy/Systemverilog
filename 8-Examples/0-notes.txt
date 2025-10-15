@@ -1,0 +1,5 @@
+-> needs interface at lower levels from driver & monitor to the DUT
+-> class generator handle randomization, constraints, mailbox
+-> class transaction must have copy custom function
+
+

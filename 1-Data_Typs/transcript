@@ -1,0 +1,51 @@
+# //  Questa Sim-64
+# //  Version 2024.1 win64 Feb  1 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# vsim work.top 
+# Start time: 10:10:14 on Sep 12,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.top(fast)
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ns  Iteration: 0  Instance: /top File: exp10.sv Line: 55
+run
+# Min=42 Max=1492
+# ** Warning: (vsim-PLI-3410) Illegal character 'h' in data on line 14 of file "f.mem".    : exp10.sv(80)
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-PLI-3410) Illegal character 'h' in data on line 14 of file "f.mem".    : exp10.sv(80)
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-PLI-3410) Illegal character 'h' in data on line 14 of file "f.mem".    : exp10.sv(80)
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-PLI-3410) Illegal character 'h' in data on line 14 of file "f.mem".    : exp10.sv(80)
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# mem1[0] = 0
+# mem1[1] = 100000000
+# mem1[2] = 1000000000
+# mem1[3] = 1100000000
+# mem1[4] = 10000000000
+# mem1[5] = 10100000000
+# mem1[6] = 11000000000
+# mem1[7] = 11100000000
+# mem1[8] = 100000000000
+# mem1[9] = 100100000000
+# mem1[10] = 10101010zzzz0000
+# mem1[11] = 10111011xxxx0001
+# mem1[12] = 1100110000000010
+# mem1[13] = 1101110100000011
+# mem1[14] = 1110111000000100
+# mem1[15] = 1111111100000101
+# mem1[32] = x
+# mem1[50] = x
+# End time: 10:15:44 on Sep 12,2025, Elapsed time: 0:05:30
+# Errors: 0, Warnings: 5

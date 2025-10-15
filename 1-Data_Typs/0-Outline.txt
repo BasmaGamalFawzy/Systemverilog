@@ -1,0 +1,11 @@
+exp1  -> bit , logic , event , byte , why no reg
+exp2  -> packed & unpacked structure
+exp3  -> enum: basic , methods: last , next , name 
+exp4  -> enum: state machine custom coding
+exp5  -> array: Packed & Unpacked
+exp6  -> Array Methods
+exp7  -> Dynamic Array & methods done better than exp6
+exp8  -> Associative Array
+exp9  -> queue: basics , methods: push_fornt, push_back, pop_back , pop_fornt , empty, full
+exp10 -> string array , write to file
+exp11 -> Struct & Union

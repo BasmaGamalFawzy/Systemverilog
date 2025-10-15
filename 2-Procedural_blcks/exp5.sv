@@ -1,0 +1,1 @@
+// In SystemVerilog, an always block cannot be placed inside classes and other SystemVerilog procedural blocks. Instead we can use a forever loop to achieve the same effect.

@@ -1,0 +1,10 @@
+exp1 -> Basics, rand , randc
+exp2 -> Randomize with Constraints: Basics
+exp3 -> Randomize with Constraints: inside keyword
+exp4 -> Randomize with Constraints: extern 
+exp5 -> Custom post_randomize() & pre_randomize() functions
+exp6 -> Randomize with Constraints: dist
+exp7 -> Randomize with Constraints: Operators : Implication, Equivalence ,if/else 
+exp8 -> Turn on/off randomization two ways , 1- rand.mode(0) ,2- passing who to randomize using randomize() function
+        Turn on/off constraints constraint_mode(0)
+exp9 -> randcase two types, local - this - super keywors, randsequence (not yet)
