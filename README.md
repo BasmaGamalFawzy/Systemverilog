@@ -86,13 +86,29 @@ Systemverilog/
 │   ├── exp8 → rand_mode(), constraint_mode() control
 │   └── exp9 → randcase, local/this/super keywords
 │
-└── 06-IPC/
-    ├── exp1 → events: ->, ->>, @(), wait()
-    ├── exp2 → event ordering, merge events
-    ├── exp3 → semaphore: new(), put(), get()
-    ├── exp4 → mailbox basics: put(), get()
-    ├── exp5 → mailbox custom constructor, transaction data
-    └── exp6 → parameterized mailbox
+├── 06-IPC/
+│   ├── exp1 → events: ->, ->>, @(), wait()
+│   ├── exp2 → event ordering, merge events
+│   ├── exp3 → semaphore: new(), put(), get()
+│   ├── exp4 → mailbox basics: put(), get()
+│   ├── exp5 → mailbox custom constructor, transaction data
+│   └── exp6 → parameterized mailbox
+│
+├── 07-Coverage/
+│   ├── exp1 → coverage group + options
+│   ├── exp2 → conditional coverage
+│   ├── exp3 → working with bins
+│   ├── exp4 → bins filtering
+│   ├── exp5 → reusable coverage groups
+│   ├── exp6 → cross coverage
+│   ├── exp7 → custom sample coverage group
+│   └── exp8 → transition coverpoints
+│
+├── 08-Assertions/
+│   └── (Coming soon - SVA concepts and examples)
+│
+└── 09-Revision/
+    └── Interview Questions & Key Concepts Review
 ```
 
 ## 📚 Topics Covered
@@ -114,6 +130,15 @@ Learn to generate constrained random stimulus for verification using rand variab
 
 ### 6. Inter-Process Communication (6 experiments)
 Master synchronization mechanisms including events, semaphores, and mailboxes for testbench communication.
+
+### 7. Functional Coverage (8 experiments)
+Learn to measure verification completeness using covergroups, bins, cross coverage, and transition coverage.
+
+### 8. Assertions
+SystemVerilog Assertions (SVA) for property-based verification (coming soon).
+
+### 9. Revision & Interview Prep
+Curated interview questions and key concepts review for SystemVerilog verification roles.
 
 ## 🚀 Getting Started
 
@@ -168,6 +193,19 @@ cd 01-DataTypes/exp1
 6. **Inter-Process Communication** (06-IPC)
    - Synchronize multiple testbench components
    - Use mailboxes for data passing
+
+7. **Functional Coverage** (07-Coverage)
+   - Measure verification completeness
+   - Learn covergroups, bins, and cross coverage
+   - Track what scenarios have been tested
+
+8. **Assertions** (08-Assertions)
+   - Property-based verification (coming soon)
+   - Learn SVA for checking design properties
+
+9. **Interview Preparation** (09-Revision)
+   - Review key concepts
+   - Practice common interview questions
 
 ### Running an Example
 
@@ -237,6 +275,27 @@ interface bus_if;
 endinterface
 ```
 
+### Coverage - Covergroup Example
+```systemverilog
+class packet;
+  rand bit [3:0] addr;
+  rand bit [7:0] data;
+  
+  covergroup cg;
+    addr_cp: coverpoint addr {
+      bins low    = {[0:7]};
+      bins high   = {[8:15]};
+    }
+    data_cp: coverpoint data;
+    cross addr_cp, data_cp;
+  endgroup
+  
+  function new();
+    cg = new();
+  endfunction
+endclass
+```
+
 ## 📖 Key Learning Concepts
 
 ### Why These Topics Matter
@@ -247,6 +306,8 @@ endinterface
 - **OOP**: Enables reusable, scalable verification environments (UVM foundation)
 - **Randomization**: Generate thousands of test cases automatically
 - **IPC**: Coordinate multiple verification components efficiently
+- **Coverage**: Measure what you've tested and identify gaps
+- **Assertions**: Catch bugs earlier with property checking
 
 ## 🤝 Contributing
 
