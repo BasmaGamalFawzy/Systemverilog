@@ -48,7 +48,7 @@ Systemverilog/
 │   ├── exp10 → string arrays, file I/O
 │   └── exp11 → struct & union
 │
-├── 02-Processes/
+├── 02-Procedural blocks/
 │   ├── exp1 → initial, final, always, always_comb, always_latch, always_ff
 │   ├── exp2 → fork/join basics
 │   ├── exp3 → fork/join, join_any, join_none
@@ -64,7 +64,7 @@ Systemverilog/
 │   ├── exp4 → clocking block
 │   └── exp5 → interface using clocking block
 │
-├── 04-OOP/
+├── 05-OOP/
 │   ├── Inheritance & super keyword
 │   ├── Polymorphism & virtual functions
 │   ├── Virtual class & pure virtual functions
@@ -75,7 +75,7 @@ Systemverilog/
 │   ├── automatic & static methods
 │   └── pass by value, reference, const reference
 │
-├── 05-Randomization/
+├── 06-Randomization/
 │   ├── exp1 → basics: rand, randc
 │   ├── exp2 → constraints basics
 │   ├── exp3 → inside keyword
@@ -86,7 +86,7 @@ Systemverilog/
 │   ├── exp8 → rand_mode(), constraint_mode() control
 │   └── exp9 → randcase, local/this/super keywords
 │
-├── 06-IPC/
+├── 07-IPC/
 │   ├── exp1 → events: ->, ->>, @(), wait()
 │   ├── exp2 → event ordering, merge events
 │   ├── exp3 → semaphore: new(), put(), get()
@@ -94,7 +94,7 @@ Systemverilog/
 │   ├── exp5 → mailbox custom constructor, transaction data
 │   └── exp6 → parameterized mailbox
 │
-├── 07-Coverage/
+├── 08-Coverage/
 │   ├── exp1 → coverage group + options
 │   ├── exp2 → conditional coverage
 │   ├── exp3 → working with bins
@@ -104,10 +104,13 @@ Systemverilog/
 │   ├── exp7 → custom sample coverage group
 │   └── exp8 → transition coverpoints
 │
-├── 08-Assertions/
+├── 09-Assertions/
 │   └── (Coming soon - SVA concepts and examples)
 │
-└── 09-Revision/
+├── Examples/
+│   ├── FIFO
+│   └── SPI
+└── Revision/
     └── Interview Questions & Key Concepts Review
 ```
 
