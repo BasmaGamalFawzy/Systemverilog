@@ -1,0 +1,106 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /top
+=== Design Unit: work.top
+=================================================================================
+
+Covergroup Coverage:
+    Covergroups                      1        na        na    83.33%
+        Coverpoints/Crosses          3        na        na        na
+            Covergroup Bins          8         7         1    87.50%
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /top/cg                                          83.33%        100          -    Uncovered            
+    covered/total bins:                                     7          8          -                      
+    missing/total bins:                                     1          8          -                      
+    % Hit:                                             87.50%        100          -                      
+    Coverpoint x                                      100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint y                                      100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint z                                       50.00%        100          -    Uncovered            
+        covered/total bins:                                 1          2          -                      
+        missing/total bins:                                 1          2          -                      
+        % Hit:                                         50.00%        100          -                      
+ Covergroup instance \/top/cg_inst                     83.33%        100          -    Uncovered            
+    covered/total bins:                                     7          8          -                      
+    missing/total bins:                                     1          8          -                      
+    % Hit:                                             87.50%        100          -                      
+    Coverpoint x                                      100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin x123                                            2          1          -    Covered              
+        bin x111                                            1          1          -    Covered              
+        bin x1r[1[*2]]                                      3          1          -    Covered              
+        bin x1r[1[*3]]                                      1          1          -    Covered              
+    Coverpoint y                                      100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin y247_1                                          1          1          -    Covered              
+        bin y247_2                                          1          1          -    Covered              
+    Coverpoint z                                       50.00%        100          -    Uncovered            
+        covered/total bins:                                 1          2          -                      
+        missing/total bins:                                 1          2          -                      
+        % Hit:                                         50.00%        100          -                      
+        bin z247_1                                          0          1          -    ZERO                 
+        bin z247_2                                          1          1          -    Covered              
+
+COVERGROUP COVERAGE:
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /top/cg                                          83.33%        100          -    Uncovered            
+    covered/total bins:                                     7          8          -                      
+    missing/total bins:                                     1          8          -                      
+    % Hit:                                             87.50%        100          -                      
+    Coverpoint x                                      100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint y                                      100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint z                                       50.00%        100          -    Uncovered            
+        covered/total bins:                                 1          2          -                      
+        missing/total bins:                                 1          2          -                      
+        % Hit:                                         50.00%        100          -                      
+ Covergroup instance \/top/cg_inst                     83.33%        100          -    Uncovered            
+    covered/total bins:                                     7          8          -                      
+    missing/total bins:                                     1          8          -                      
+    % Hit:                                             87.50%        100          -                      
+    Coverpoint x                                      100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin x123                                            2          1          -    Covered              
+        bin x111                                            1          1          -    Covered              
+        bin x1r[1[*2]]                                      3          1          -    Covered              
+        bin x1r[1[*3]]                                      1          1          -    Covered              
+    Coverpoint y                                      100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin y247_1                                          1          1          -    Covered              
+        bin y247_2                                          1          1          -    Covered              
+    Coverpoint z                                       50.00%        100          -    Uncovered            
+        covered/total bins:                                 1          2          -                      
+        missing/total bins:                                 1          2          -                      
+        % Hit:                                         50.00%        100          -                      
+        bin z247_1                                          0          1          -    ZERO                 
+        bin z247_2                                          1          1          -    Covered              
+
+TOTAL COVERGROUP COVERAGE: 83.33%  COVERGROUP TYPES: 1
+
+Total Coverage By Instance (filtered view): 83.33%
+
